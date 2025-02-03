@@ -1,0 +1,1 @@
+This python script is a tool for extracting information from passed text using a LLM. It accepts a pydantic class definition and a prompt. It then uses the LLM to extract the information from the text and return a Pydantic object of the information.
