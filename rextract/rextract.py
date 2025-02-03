@@ -151,7 +151,7 @@ def RExtract(pydantic_class, llm, prompt):
             if state['error']: # If there is an error, we need to try to fix it
                 i = 0      
                 while state['error'] and (i < 3):
-                    pprint(f"Running error handler due to error: {state['error']}")
+                    print(f"Running error handler due to error: {state['error']}")
                     i += 1
                     try:
                         # Get corrected output from error chain
